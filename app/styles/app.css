@@ -17,6 +17,10 @@ body {
 
 }
 
+.question-title {
+  font-size: 150%;
+}
+
 /* navbar */
 .navbar-primary .navbar { background:#000; border-bottom:none; }
 .navbar-primary .navbar .nav > li > a {color: #fff;}

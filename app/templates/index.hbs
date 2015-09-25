@@ -1,1 +1,11 @@
 {{outlet}}
+
+<div id="forum">
+  <div class="jumbotron">
+    <ul>
+      {{#each model as |question|}}
+        {{question-tile question=question}}
+      {{/each}}
+    </ul>
+  </div>
+</div>
