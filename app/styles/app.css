@@ -21,11 +21,20 @@ body {
   font-size: 150%;
 }
 
+a {
+  color: #e13131;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 /* navbar */
 .navbar-primary .navbar { background:#000; border-bottom:none; }
 .navbar-primary .navbar .nav > li > a {color: #fff;}
-.navbar-primary .navbar .nav > li > a:hover {color: #fff; background-color: #000;}
-.navbar-primary .navbar .nav .active > a,.navbar .nav .active > a:hover {color: #fff; background-color: #000;}
+.navbar-primary .navbar .nav > li > a:hover {color: #fff; background-color: #e13131;}
+.navbar-primary .navbar .nav .active > a,.navbar .nav .active > a:hover {color: #fff; background-color: #e13131;}
 .navbar-primary .navbar .nav li > a .caret, .tnav .navbar .nav li > a:hover .caret {border-top-color: #fff;border-bottom-color: #fff;}
 .navbar-primary .navbar .navbar-brand {color:#fff;}
 .navbar-primary .navbar .nav.pull-right {margin-left: 10px; margin-right: 0;}
